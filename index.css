@@ -29,7 +29,7 @@ img {
 }*/
 button {
   margin: 10px;
-  background-color: #4CAF50; /* Green */
+  background-color: #4c8baf; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -38,4 +38,42 @@ button {
   display: inline-block;
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 16px;
+}
+button:hover {
+  margin: 10px;
+  background-color: #4caf86; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 16px;
+}
+
+button1 {
+  margin: 5px;
+  background-color: #4c8baf; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 13px;
+}
+
+button1:hover {
+  margin: 5px;
+  background-color: #4caf75; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 13px;
 }

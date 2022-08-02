@@ -1,9 +1,26 @@
 * {
  background-color: black;
+ margin: auto;
  
 }
 h2 {
+  margin: auto;
   color:rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  margin: 5px;
+  /*-webkit-text-stroke: 2px rgb(255, 255, 255);*/
+  font-size: 1cm;
+  font-family: 'Rubik Mono One', sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+
+}
+h2:hover {
+  -webkit-transition-duration: 1000ms;
+  margin: auto;
+  color:rgb(0, 132, 255);
   background: rgb(255, 255, 255);
   margin: 5px;
   /*-webkit-text-stroke: 2px rgb(255, 255, 255);*/
@@ -17,18 +34,16 @@ h2 {
 }
 h1 {
     color:white;
-    margin: 0px;
+    margin: auto;
     /*-webkit-text-stroke: 2px rgb(255, 255, 255);*/
     font-size: 2cm;
     font-family: 'Rubik Mono One', sans-serif;
 
 }
 
-img {
-  margin: 10px;
-}
+
 .menu {
-  margin: 0px;
+  margin: auto;
   width: top;
   height: 50px;
   /*border: 7px rgb(255, 255, 255);*/
@@ -37,8 +52,8 @@ img {
 
 }
 .caja {
-  margin: 0px;
-  width: top;
+  margin: auto;
+  width: auto;
   height: 100px;
   /*border: 7px rgb(255, 255, 255);*/
   background: rgb(0, 0, 0);
@@ -51,7 +66,7 @@ img {
   background: red;
 }*/
 button {
-  margin: 10px;
+  margin: auto;
   background-color: #4c8baf; /* Green */
   border: none;
   color: white;
@@ -63,7 +78,7 @@ button {
   font-size: 16px;
 }
 button:hover {
-  margin: 10px;
+  margin: auto;
   background-color: #4caf86; /* Green */
   border: none;
   color: white;
@@ -76,7 +91,7 @@ button:hover {
 }
 
 button1 {
-  margin: 0px;
+  margin: auto;
   background-color: #4c8baf; /* Green */
   border: none;
   color: white;
@@ -92,7 +107,7 @@ button1 {
 }
 
 button1:hover {
-  margin: 0px;
+  margin: auto;
   background-color: #4caf75; /* Green */
   border: none;
   color: white;
@@ -109,7 +124,7 @@ button1:hover {
 
 
 button2 {
-  margin: 0px;
+  margin: auto;
   background-color: #4c8baf; /* Green */
   border: none;
   color: white;
@@ -125,7 +140,7 @@ button2 {
 }
 
 button2:hover {
-  margin: 0px;
+  margin: auto;
   background-color: #4caf75; /* Green */
   border: none;
   color: white;
@@ -143,3 +158,4 @@ button2:hover {
 #desc {
   color: azure;
 }
+

@@ -30,7 +30,6 @@ body {
 img {
   max-width: 100%;
   border-radius: 50%;
-  box-shadow: 9px 9px 16px #A3B1C6, -9px -9px 16px rgba(255, 255, 255, 0.5);
   margin: 40px;
   
 }
